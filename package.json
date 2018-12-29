@@ -1,10 +1,10 @@
 {
   "name": "leny",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A personal card for Pierre-Antoine 'Leny' Delnatte (@leny)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "leny": "./bin/card.js"
   },
   "repository": {
     "type": "git",
