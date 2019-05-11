@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('               Pierre-Antoine Delnatte'),
   handle: chalk.white('leny'),
-  work: chalk.white('Code Guardian / Campus Manager at BeCode'),
+  work: chalk.white('Code Guardian at BeCode'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('leny_be'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~leny'),
   github: chalk.gray('https://github.com/') + chalk.green('leny'),
