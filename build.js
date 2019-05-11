@@ -15,9 +15,9 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Pierre-Antoine Delnatte'),
+  name: chalk.white('              Pierre-Antoine Delnatte'),
   handle: chalk.white('leny'),
-  work: chalk.white('Code Guardian at BeCode'),
+  work: chalk.white('Code Guardian at BeCode.org'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('leny_be'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~leny'),
   github: chalk.gray('https://github.com/') + chalk.green('leny'),
