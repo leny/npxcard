@@ -1,21 +1,14 @@
 {
   "name": "leny",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A personal card for Pierre-Antoine 'Leny' Delnatte (@leny)",
-  "main": "/bin/card.js",
+  "main": "./index.js",
   "bin": {
-    "leny": "./bin/card.js"
+    "leny": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/leny/npxcard.git"
-  },
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "card",
@@ -27,13 +20,8 @@
   ],
   "author": "leny <info@flatland.be> (https://leny.me)",
   "license": "MIT",
-  "files": [
-    "bin/card.js",
-    "bin/output"
-  ],
-  "devDependencies": {
+  "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
+    "chalk": "^2.4.1"
   }
 }
